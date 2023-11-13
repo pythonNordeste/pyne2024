@@ -8,6 +8,19 @@
     vermelho: #FD4000
     branco: #FFFFFFF
 */
+body {
+    font-family: manropeRegular;
+    font-size: 1.4em;
+}
+
+footer {
+    font-family: manropeRegular;
+    font-size: 0.8em;
+}
+
+footer h3 {
+    font-family: manropeRegular;
+}
 
 .uk-logo img {
     max-width: 150px; /* Maximum width */
@@ -17,6 +30,10 @@
 
 .uk-navbar-container {
     background-color: #FFDA1F;
+}
+
+.uk-navbar-item {
+    font-family: bonoc;
 }
 
 .uk-footer {
@@ -38,7 +55,6 @@
 }
 
 .hero {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -58,7 +74,7 @@
 }
 
 .hr {
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
@@ -66,14 +82,46 @@
     display: flex;
 }
 
-.evento-row  div {
-    padding: 15px;
+.evento-row div {
     text-align: center;
+}
+
+.evento-row div h1 {
+    font-family: bonoc;
 }
 
 .patrocinio {
     padding-right: 15%;
     padding-left: 15%;
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.patrocinio h3{
+    font-family: bonoc;
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        font-size: 1.2em;
+    }
+
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .patrocinio {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+
+    .hero p{
+        margin-top: 0 !important;
+    }
+
+    .evento-row img {
+        order: 2;
+    }
 }
