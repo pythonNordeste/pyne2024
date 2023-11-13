@@ -1,0 +1,45 @@
+/*
+    laranja: #FF5C27
+    bege: #F5F3E7
+    azul: #3F9BFF
+    verde: #2A9507
+    amarelo: #FFDA1F
+    verde escuro: #383806
+    vermelho: #FD4000
+    branco: #FFFFFFF
+*/
+
+.uk-logo img {
+    max-width: 150px; /* Maximum width */
+    min-width: 100px; /* Minimum width */
+    height: auto; /* Auto-adjusts the height to maintain aspect ratio */
+}
+
+.uk-navbar-container {
+    background-color: #FFDA1F;
+}
+
+.uk-footer {
+    background-color: #3F9BFF;
+    color: #FFFFFF;
+}
+
+.uk-footer h3 {
+    color: #FFFFFF;
+}
+
+.uk-footer a {
+    color: #FFFFFF;
+}
+
+.uk-navbar-container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero {
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
