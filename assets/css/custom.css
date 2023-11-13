@@ -38,8 +38,42 @@
 }
 
 .hero {
-    padding-left: 15px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+}
+
+.hero img{
+    margin-top: 15px;
+    height: 30vh;
+}
+
+.hero p{
+    text-align: center;
+}
+
+.container {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.hr {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.evento-row {
+    display: flex;
+}
+
+.evento-row  div {
+    padding: 15px;
+    text-align: center;
+}
+
+.patrocinio {
+    padding-right: 15%;
+    padding-left: 15%;
+    text-align: center;
+    margin-bottom: 15px;
 }
