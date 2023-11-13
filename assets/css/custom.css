@@ -22,18 +22,12 @@ footer h3 {
     font-family: manropeRegular;
 }
 
-.uk-logo img {
-    max-width: 150px; /* Maximum width */
-    min-width: 100px; /* Minimum width */
-    height: auto; /* Auto-adjusts the height to maintain aspect ratio */
-}
-
 .uk-navbar-container {
     background-color: #FFDA1F;
 }
 
 .uk-navbar-item {
-    font-family: bonoc;
+    font-family: bonoc !important;
 }
 
 .uk-footer {
