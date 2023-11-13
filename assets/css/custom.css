@@ -98,8 +98,36 @@ footer h3 {
     margin-bottom: 15px;
 }
 
-.patrocinio h3{
+.patrocinio h3 {
     font-family: bonoc;
+}
+
+.uk-text-bold {
+    color: black;
+}
+
+.uk-button {
+    border: none;
+    font-size: 1rem;
+    font-family: manropeRegular;
+}
+
+.uk-button:hover {
+    border-left: 0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+}
+
+.uk-button-primary {
+    background-color: #3F9BFF;
+    color: white;
+    border-left: 0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+}
+
+.uk-button-default {
+    background-color: #F5F3E7;
+    border-left: 0.25rem solid black;
+    border-bottom: 0.25rem solid black;
 }
 
 @media screen and (max-width: 1366px) {
@@ -123,5 +151,10 @@ footer h3 {
 
     .evento-row img {
         order: 2;
+    }
+
+    .uk-button {
+        font-size: 0.75rem;
+        font-family: manropeRegular;
     }
 }
