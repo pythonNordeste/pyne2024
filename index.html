@@ -28,15 +28,30 @@
     gtag('js', new Date());
     gtag('config', 'G-2MBT06C1Q2');
     </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    
+    <script>
+        // GSAP Code to animate SVG
+        gsap.registerPlugin(MorphSVGPlugin);
+    
+        gsap.timeline({ repeat: -1, yoyo: true })
+            .to("#Camada_2 .cls-1", {
+                duration: 2,
+                morphSVG: "#Camada_2 .cls-2",
+                ease: "power1.inOut"
+            });
+    </script>
+    
 </head>
 
 <body>
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
         <div class="uk-navbar-center">
             <ul class="uk-navbar-nav uk-visible@s">
-                <li><a class="uk-navbar-item" href="#">Inicio</a></li>
-                <li><a class="uk-navbar-item" href="#">Sobre</a></li>
-                <li><a class="uk-navbar-item" href="#">Patrocínio</a></li>
+                <li><a class="uk-navbar-item" href="/">Inicio</a></li>
+                <li><a class="uk-navbar-item" href="#sobre">Sobre</a></li>
+                <li><a class="uk-navbar-item" href="#patrocinio">Patrocínio</a></li>
             </ul>
             <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
         </div>
@@ -51,9 +66,9 @@
     <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas">
         <div class="uk-offcanvas-bar">
             <ul class="uk-nav">
-                <li><a class="uk-navbar-item" href="#">Inicio</a></li>
-                <li><a class="uk-navbar-item" href="#">Sobre</a></li>
-                <li><a class="uk-navbar-item" href="#">Patrocínio</a></li>
+                <li><a class="uk-navbar-item" href="/">Inicio</a></li>
+                <li><a class="uk-navbar-item" href="#sobre">Sobre</a></li>
+                <li><a class="uk-navbar-item" href="#patrocinio">Patrocínio</a></li>
             </ul>
         </div>
     </div>
@@ -81,7 +96,7 @@
         <div class="evento-row" uk-grid>
             <img src="assets/images/MOSAICO.svg" class="uk-width-2-5@s"/>
             <div class="uk-width-3-5@s">
-                <h1>SOBRE O EVENTO</h1>
+                <h1 id="sobre">SOBRE O EVENTO</h1>
                 <p>
                     A Python Nordeste é o <span class="uk-text-bold">maior encontro da comunidade Python</span> na região. 
                     É um evento itinerante que ocorre anualmente nas cidades do Nordeste a mais de 10 anos. Em 2024 chegaremos 
@@ -104,7 +119,7 @@
 
 
         <div class="patrocinio">
-            <h3>PATROCÍNIO</h3>
+            <h3 id="patrocinio">PATROCÍNIO</h3>
 
             <p>
                 Baixe aqui o nosso Plano de Patrocínio com as 
@@ -123,25 +138,34 @@
                 <div>
                     <h3>Sobre</h3>
                     <ul class="uk-list uk-list-bullet">
-                        <li>Evento</li>
-                        <li>Local</li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <!--<li>Local</li>-->
                         <!-- <li>Keynotes</li> -->
-                        <li>Patrocínio</li>
-                        <li>Código de Conduta (CDC)</li>
-                        <li>Perguntas Frequentes</li>
+                        <li><a href="#patrocinio">Patrocínio</a></li>
+                        <li><a href="https://github.com/pythonNordeste/codigo-de-conduta">Código de Conduta (CDC)</a></li>
+                        <!-- <li>Perguntas Frequentes</li> -->
                         <!-- <li>Programação</li> -->
                     </ul>
                 </div>
                 <div>
-                    <h3>Section 2</h3>
-                    <p>Some text for the second section of the footer. This can be about your company, services, or any other information.</p>
+                    <h3>Créditos</h3>
+                    <p>
+                        A Python Nordeste 2024 em Natal, RN, é uma produção do 
+                        <a href="https://blog.grupyrn.org/">GruPy RN</a>
+                    </p>
+                    <p>
+                        Identidade visual e design por 
+                        <a href="https://www.linkedin.com/in/lucas-lenin-456726162/">Lucas Lenin</a>
+                    </p>
                 </div>
                 <div>
                     <h3>Contato</h3>
-                    <p>
-                        Natal, RN
-                    </p>
                     <a href="mailto:nordeste@python.org.br">nordeste@python.org.br</a>
+                    <div class="uk-grid-row-small">
+                        <a href="https://github.com/pythonNordeste" class="uk-margin-small-right" uk-icon="icon: github; ratio: 1.3"></a>
+                        <a href="https://www.linkedin.com/company/pythonnordeste" class="uk-margin-small-right" uk-icon="icon: linkedin; ratio: 1.3"></a>
+                        <a href="https://www.instagram.com/pythonnordeste" uk-icon="icon: instagram; ratio: 1.3"></a>
+                    </div>
                 </div>
             </div>
             <div class="uk-text-center uk-padding-small">
