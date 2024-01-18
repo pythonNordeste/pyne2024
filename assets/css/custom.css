@@ -10,6 +10,16 @@
     --preto_default: #000;
 }
 
+@font-face {
+    font-family: bonoc;
+    src: url(../fonts/Bonoc.ttf);
+}
+
+@font-face {
+    font-family: manropeRegular;
+    src: url(../fonts/Manrope/Manrope-Regular.ttf);
+}
+
 body {
     font-family: manropeRegular;
     font-size: 1.4em;
