@@ -1,16 +1,32 @@
-/*
-    laranja: #FF5C27
-    bege: #F5F3E7
-    azul: #3F9BFF
-    verde: #2A9507
-    amarelo: #FFDA1F
-    verde escuro: #383806
-    vermelho: #FD4000
-    branco: #FFFFFFF
-*/
+:root { 
+    --laranja: #FF5C27;
+    --bege: #F5F3E7;
+    --azul: #3F9BFF;
+    --verde: #2A9507;
+    --amarelo: #FFDA1F;
+    --verde_escuro: #383806;
+    --vermelho: #FD4000;
+    --branco_default: #FFF;
+    --preto_default: #000;
+}
+
+@font-face {
+    font-family: bonoc;
+    src: url(../fonts/Bonoc.ttf);
+}
+
+@font-face {
+    font-family: manropeRegular;
+    src: url(../fonts/Manrope/Manrope-Regular.ttf);
+}
+
 body {
     font-family: manropeRegular;
     font-size: 1.4em;
+}
+
+body h2, body h3 {
+    font-family: bonoc !important;
 }
 
 footer {
@@ -22,20 +38,16 @@ footer h3 {
     font-family: manropeRegular;
 }
 
-#sobre {
+.scroll-smooth {
     scroll-behavior: smooth;
 }
 
-#patrocinio {
-    scroll-behavior: smooth;
-}
-
-html {
-	scroll-behavior: smooth;
+.width-max-content {
+    width: max-content;
 }
 
 .uk-navbar-container {
-    background-color: #FFDA1F;
+    background-color: var(--amarelo);
 }
 
 .uk-navbar-item {
@@ -43,16 +55,16 @@ html {
 }
 
 .uk-footer {
-    background-color: #3F9BFF;
-    color: #FFFFFF;
+    background-color: var(--azul);
+    color: var(--branco_default);
 }
 
 .uk-footer h3 {
-    color: #FFFFFF;
+    color: var(--branco_default);
 }
 
 .uk-footer a {
-    color: #FFFFFF;
+    color: var(--branco_default);
 }
 
 .uk-navbar-container {
@@ -66,7 +78,6 @@ html {
 }
 
 .hero img{
-    margin-top: 15px;
     height: 30vh;
 }
 
@@ -96,20 +107,8 @@ html {
     font-family: bonoc;
 }
 
-.patrocinio {
-    padding-right: 15%;
-    padding-left: 15%;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.patrocinio h3 {
-    font-family: bonoc;
-}
-
 .uk-text-bold {
-    color: black;
+    color: var(--preto_default);
 }
 
 .uk-button {
@@ -119,21 +118,21 @@ html {
 }
 
 .uk-button:hover {
-    border-left: 0.25rem solid black;
-    border-bottom: 0.25rem solid black;
+    border-left: 0.25rem solid var(--preto_default);
+    border-bottom: 0.25rem solid var(--preto_default);
 }
 
 .uk-button-primary {
-    background-color: #3F9BFF;
-    color: white;
-    border-left: 0.25rem solid black;
-    border-bottom: 0.25rem solid black;
+    background-color: var(--azul);
+    color: var(--branco_default);
+    border-left: 0.25rem solid var(--preto_default);
+    border-bottom: 0.25rem solid var(--preto_default);
 }
 
 .uk-button-default {
-    background-color: #F5F3E7;
-    border-left: 0.25rem solid black;
-    border-bottom: 0.25rem solid black;
+    background-color: var(--bege);
+    border-left: 0.25rem solid var(--preto_default);
+    border-bottom: 0.25rem solid var(--preto_default);
 }
 
 @media screen and (max-width: 1366px) {
@@ -144,11 +143,6 @@ html {
     .container {
         padding-left: 5%;
         padding-right: 5%;
-    }
-
-    .patrocinio {
-        padding-right: 5%;
-        padding-left: 5%;
     }
 
     .hero p{
