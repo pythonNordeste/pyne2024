@@ -25,7 +25,7 @@ body {
     font-size: 1.4em;
 }
 
-body h2 {
+body h2, body h3 {
     font-family: bonoc !important;
 }
 
@@ -38,16 +38,12 @@ footer h3 {
     font-family: manropeRegular;
 }
 
-#sobre {
+.scroll-smooth {
     scroll-behavior: smooth;
 }
 
-#patrocinio {
-    scroll-behavior: smooth;
-}
-
-html {
-	scroll-behavior: smooth;
+.width-max-content {
+    width: max-content;
 }
 
 .uk-navbar-container {
@@ -82,7 +78,6 @@ html {
 }
 
 .hero img{
-    margin-top: 15px;
     height: 30vh;
 }
 
@@ -109,18 +104,6 @@ html {
 }
 
 .evento-row div h1 {
-    font-family: bonoc;
-}
-
-.patrocinio {
-    padding-right: 15%;
-    padding-left: 15%;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.patrocinio h3 {
     font-family: bonoc;
 }
 
@@ -160,11 +143,6 @@ html {
     .container {
         padding-left: 5%;
         padding-right: 5%;
-    }
-
-    .patrocinio {
-        padding-right: 5%;
-        padding-left: 5%;
     }
 
     .hero p{
