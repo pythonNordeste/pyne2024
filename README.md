@@ -4,6 +4,8 @@
     <span>✊🏿✊🏾✊🏽✊✊🏼✊🏻 🏳️‍🌈🏳️‍⚧️♿</span>
 </div><br/>
 
+![image](https://github.com/jjpaulo2/pyne2024/assets/22819523/d30db17d-6b3d-4ea2-9c28-1af2d4a397b6)
+
 Código fonte do site da Python Nordeste de 2024. Fique a vontade para [forkar](https://github.com/pythonNordeste/pyne2024/fork), abrir [issues](https://github.com/pythonNordeste/pyne2024/issues), mandar [pull requests](https://github.com/pythonNordeste/pyne2024/pulls) e participar das [discussões](https://github.com/pythonNordeste/pyne2024/issues).
 
 ### Dependências
