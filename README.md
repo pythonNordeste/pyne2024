@@ -1,9 +1,9 @@
 # Site da Python Nordeste 2024
 
 <div align="center">
-    <span>Pessoas > Tecnologia</span><br />
+    <span>Pessoas > Tecnologia</span><br/>
     <span>✊🏿✊🏾✊🏽✊✊🏼✊🏻 🏳️‍🌈🏳️‍⚧️♿</span>
-</div>
+</div><br/>
 
 Código fonte do site da Python Nordeste de 2024. Fique a vontade para [forkar](https://github.com/pythonNordeste/pyne2024/fork), abrir [issues](https://github.com/pythonNordeste/pyne2024/issues), mandar [pull requests](https://github.com/pythonNordeste/pyne2024/pulls) e participar das [discussões](https://github.com/pythonNordeste/pyne2024/issues).
 
