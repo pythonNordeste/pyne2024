@@ -95,6 +95,10 @@ footer h3 {
     padding-bottom: 15px;
 }
 
+.logo-patrocinador {
+    width: 120px;
+}
+
 .evento-row {
     display: flex;
 }
