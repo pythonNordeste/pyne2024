@@ -154,6 +154,18 @@ footer h3 {
     border-bottom: 0.25rem solid var(--preto_default);
 }
 
+.uk-button-danger {
+    background-color: var(--laranja);
+    color: var(--branco_default);
+    border-left: 0.25rem solid var(--preto_default);
+    border-bottom: 0.25rem solid var(--preto_default);
+}
+
+.uk-button-danger:hover {
+    background-color:  var(--laranja);
+    color: var(--branco_default);
+}
+
 .uk-button-default {
     background-color: var(--bege);
     border-left: 0.25rem solid var(--preto_default);
