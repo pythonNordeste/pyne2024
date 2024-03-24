@@ -96,8 +96,8 @@ footer h3 {
 }
 
 .patrocinador-cobre {
-    max-width: 60px;
-    max-height: 60px;
+    max-width: 75px;
+    max-height: 75px;
 }
 
 .patrocinador-bronze {
@@ -170,6 +170,31 @@ footer h3 {
     background-color: var(--bege);
     border-left: 0.25rem solid var(--preto_default);
     border-bottom: 0.25rem solid var(--preto_default);
+}
+
+#patrocinadoras {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#patrocinadoras div:not(:last-child) {
+    margin-bottom: 2em;
+}
+
+#patrocinadoras h4:not(:last-child) {
+    margin-bottom: 1em;
+}
+
+#patrocinio {
+    background-color: var(--amarelo);
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+#sobre {
+    background-color: var(--bege);
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 @media screen and (max-width: 1366px) {
