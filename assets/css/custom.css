@@ -30,6 +30,7 @@ body h2, body h3 {
 }
 
 footer {
+    padding-top: 2em;
     font-family: manropeRegular;
     font-size: 0.8em;
 }
@@ -73,6 +74,7 @@ footer h3 {
 }
 
 .hero {
+    margin-top: 2em;
     align-items: center;
     justify-content: center;
 }
@@ -120,12 +122,8 @@ footer h3 {
     max-height: 400px;
 }
 
-.evento-row {
-    display: flex;
-}
-
 .evento-row div {
-    text-align: center;
+    padding-left: 2em;
 }
 
 .evento-row div h1 {
@@ -195,6 +193,7 @@ footer h3 {
     background-color: var(--bege);
     padding-top: 3em;
     padding-bottom: 3em;
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 1366px) {
@@ -211,8 +210,16 @@ footer h3 {
         margin-top: 0 !important;
     }
 
+    .evento-row {
+        flex-direction: column;
+    }
+
+    .evento-row div {
+        padding-left: 0;
+    }
+
     .evento-row img {
-        order: 2;
+        display: none;
     }
 
     .uk-button {
