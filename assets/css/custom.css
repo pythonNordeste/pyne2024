@@ -2,14 +2,22 @@
     --laranja: #FF5C27;
     --bege: #F5F3E7;
     --azul: #3F9BFF;
-    --verde: #2A9507;
+    --verde: #00923F;
     --amarelo: #FFDA1F;
     --verde_escuro: #383806;
     --vermelho: #FD4000;
     --branco_default: #FFF;
     --preto_default: #000;
+    --fuchsia:  #D70086;
+    --roxo__escuro: #5E17EB;
+    --cinza_escuro: #777777;
 }
 
+.uk-badge-large {
+    padding: 1rem;
+    font-size: medium;
+
+}
 @font-face {
     font-family: bonoc;
     src: url(../fonts/Bonoc.ttf);
@@ -71,6 +79,11 @@ footer h3 {
 .uk-navbar-container {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.uk-width-auto img {
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .hero {
@@ -226,4 +239,56 @@ footer h3 {
         font-size: 0.75rem;
         font-family: manropeRegular;
     }
+}
+
+
+/*
+ * Card Third
+ */
+.uk-card-green {
+    background-color: var(--verde);
+    color: var(--branco_default);
+}
+
+.uk-card-fuchsia {
+    background-color: var(--fuchsia);
+    color: var(--branco_default);
+}
+
+.uk-card-orange {
+    background-color: var(--laranja);
+    color: var(--branco_default);
+}
+
+.uk-card-purple {
+    background-color: var(--roxo__escuro);
+    color: var(--branco_default);
+}
+
+.uk-card-purple h3 {
+    background-color: var(--roxo__escuro);
+    color: var(--branco_default);
+}
+
+.uk-card-gray {
+    background-color: var(--cinza_escuro);
+    color: var(--branco_default);
+}
+.uk-card-gray h3 {
+    background-color: var(--cinza_escuro);
+    color: var(--branco_default);
+}
+.uk-badge-beige {
+    background-color: var(--bege);
+    color: var(--preto_default) !important;
+}
+
+.card-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.uk-text-small {
+    min-height: 220px;
 }
