@@ -295,3 +295,9 @@ footer h3 {
 .uk-text-small {
     min-height: 220px;
 }
+
+.custom-class {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
