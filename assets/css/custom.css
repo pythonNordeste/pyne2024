@@ -98,8 +98,8 @@ footer h3 {
 }
 
 .patrocinador-cobre {
+    min-width: 75px;
     max-width: 75px;
-    max-height: 75px;
 }
 
 .patrocinador-bronze {
@@ -196,7 +196,7 @@ footer h3 {
     margin-top: 1em;
 }
 
-@media screen and (max-width: 1366px) {
+@media screen and (max-width: 1200px) {
     body {
         font-size: 1.2em;
     }
@@ -212,6 +212,9 @@ footer h3 {
 
     .evento-row {
         flex-direction: column;
+        text-align: justify;
+        padding-left: 2em;
+        padding-right: 2em;
     }
 
     .evento-row div {
