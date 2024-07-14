@@ -11,6 +11,7 @@
     --fuchsia:  #D70086;
     --roxo__escuro: #5E17EB;
     --cinza_escuro: #777777;
+    --marron_escuro: #353408;
 }
 
 .uk-badge-large {
@@ -33,7 +34,7 @@ body {
     font-size: 1.4em;
 }
 
-body h2, body h3 {
+body h2, body h3, strong {
     font-family: bonoc !important;
 }
 
@@ -253,6 +254,16 @@ footer h3 {
     color: var(--branco_default);
 }
 
+.uk-card-green span {
+    background-color: var(--verde);
+    color: var(--branco_default);
+}
+
+span {
+    color: var(--branco_default) !important;
+    font-size: medium;
+}
+
 .uk-card-fuchsia {
     background-color: var(--fuchsia);
     color: var(--branco_default);
@@ -286,6 +297,11 @@ footer h3 {
     color: var(--preto_default) !important;
 }
 
+.uk-card-brown {
+    background-color: var(--marron_escuro);
+    color: var(--branco_default);
+}
+
 .card-flex-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -300,4 +316,11 @@ footer h3 {
     margin-top: 10px;
     margin-bottom: 0px;
     padding-bottom: 15px;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajuste este valor para o tamanho desejado */
 }
