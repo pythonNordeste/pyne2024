@@ -324,3 +324,9 @@ span {
     text-overflow: ellipsis;
     max-width: 200px; /* Ajuste este valor para o tamanho desejado */
 }
+
+.avatar-medium {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
