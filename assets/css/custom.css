@@ -300,6 +300,7 @@ span {
 .uk-card-brown {
     background-color: var(--marron_escuro);
     color: var(--branco_default);
+    height: auto !important;
 }
 
 .card-flex-wrap {
@@ -308,9 +309,9 @@ span {
     justify-content: space-between;
 }
 
-.uk-text-small {
+/* .uk-text-small {
     min-height: 220px;
-}
+} */
 
 .custom-class {
     margin-top: 10px;
