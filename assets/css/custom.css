@@ -303,6 +303,13 @@ span {
     height: auto !important;
 }
 
+.agenda-card-body {
+    padding: 1.5rem 0.7rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
 .card-flex-wrap {
     display: flex;
     flex-wrap: wrap;
