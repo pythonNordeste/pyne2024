@@ -34,7 +34,7 @@ body {
     font-size: 1.4em;
 }
 
-body h2, body h3, strong {
+body h2, body h3 {
     font-family: bonoc !important;
 }
 
@@ -142,10 +142,6 @@ footer h3 {
 
 .evento-row div h1 {
     font-family: bonoc;
-}
-
-.uk-text-bold {
-    color: var(--preto_default);
 }
 
 .uk-button {
