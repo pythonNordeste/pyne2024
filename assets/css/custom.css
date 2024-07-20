@@ -274,17 +274,19 @@ span {
     color: var(--branco_default);
 }
 
-.uk-card-purple {
-    background-color: var(--roxo__escuro);
+.uk-card-blue {
+    cursor: pointer;
+    background-color: var(--azul);
     color: var(--branco_default);
 }
 
-.uk-card-purple h3 {
-    background-color: var(--roxo__escuro);
+.uk-card-blue h3 {
+    background-color: var(--azul);
     color: var(--branco_default);
 }
 
 .uk-card-gray {
+    cursor: pointer;
     background-color: var(--cinza_escuro);
     color: var(--branco_default);
 }
