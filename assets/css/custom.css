@@ -2,14 +2,23 @@
     --laranja: #FF5C27;
     --bege: #F5F3E7;
     --azul: #3F9BFF;
-    --verde: #2A9507;
+    --verde: #00923F;
     --amarelo: #FFDA1F;
     --verde_escuro: #383806;
     --vermelho: #FD4000;
     --branco_default: #FFF;
     --preto_default: #000;
+    --fuchsia:  #D70086;
+    --roxo__escuro: #5E17EB;
+    --cinza_escuro: #777777;
+    --marron_escuro: #353408;
 }
 
+.uk-badge-large {
+    padding: 1rem;
+    font-size: medium;
+
+}
 @font-face {
     font-family: bonoc;
     src: url(../fonts/Bonoc.ttf);
@@ -73,6 +82,11 @@ footer h3 {
     padding-right: 15px;
 }
 
+.uk-width-auto img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 .hero {
     margin-top: 2em;
     align-items: center;
@@ -128,10 +142,6 @@ footer h3 {
 
 .evento-row div h1 {
     font-family: bonoc;
-}
-
-.uk-text-bold {
-    color: var(--preto_default);
 }
 
 .uk-button {
@@ -229,4 +239,100 @@ footer h3 {
         font-size: 0.75rem;
         font-family: manropeRegular;
     }
+}
+
+
+/*
+ * Card Third
+ */
+.uk-card-green {
+    background-color: var(--verde);
+    color: var(--branco_default);
+}
+
+.uk-card-green span {
+    background-color: var(--verde);
+    color: var(--branco_default);
+}
+
+span {
+    color: var(--branco_default) !important;
+    font-size: medium;
+}
+
+.uk-card-fuchsia {
+    background-color: var(--fuchsia);
+    color: var(--branco_default);
+}
+
+.uk-card-orange {
+    background-color: var(--laranja);
+    color: var(--branco_default);
+}
+
+.uk-card-blue {
+    cursor: pointer;
+    background-color: var(--azul);
+    color: var(--branco_default);
+}
+
+.uk-card-blue h3 {
+    background-color: var(--azul);
+    color: var(--branco_default);
+}
+
+.uk-card-gray {
+    cursor: pointer;
+    background-color: var(--cinza_escuro);
+    color: var(--branco_default);
+}
+.uk-card-gray h3 {
+    background-color: var(--cinza_escuro);
+    color: var(--branco_default);
+}
+.uk-badge-beige {
+    background-color: var(--bege);
+    color: var(--preto_default) !important;
+}
+
+.uk-card-brown {
+    background-color: var(--marron_escuro);
+    color: var(--branco_default);
+    height: auto !important;
+}
+
+.agenda-card-body {
+    padding: 1.5rem 0.7rem;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card-flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .uk-text-small {
+    min-height: 220px;
+} */
+
+.custom-class {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Ajuste este valor para o tamanho desejado */
+}
+
+.avatar-medium {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
 }

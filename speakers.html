@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Primary Meta Tags -->
+    <title>PyNE 2024 | Python Nordeste 2024</title>
+    <meta name="description" content="PyNE24 | Python Nordeste 2024 | Natal - RN, Brasil | Em Agosto">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:title" content="PyNE24 | Python Nordeste 2024 | Natal - RN, Brasil | Em Agosto">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://2024.pythonnordeste.org/">
+    <meta property="og:description" content="PyNE24 | Python Nordeste 2024 | Natal - RN, Brasil | Em Agosto">
+    <meta property="og:image" content="https://2024.pythonnordeste.org/assets/images/pyne24_logo.png">
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://2024.pythonnordeste.org/">
+    <meta property="twitter:title" content="PyNE24 | Python Nordeste 2024 | Natal - RN, Brasil | Em Agosto">
+    <meta property="twitter:description" content="PyNE24 | Python Nordeste 2024 | Natal - RN, Brasil | Em Agosto">
+    <meta property="twitter:image" content="https://2024.pythonnordeste.org/assets/images/pyne24_logo.png">
+
+    <script>console.log("\nPython Nordeste 2024\n\nPessoas > Tecnologia\n✊🏿✊🏾✊🏽✊✊🏼✊🏻 🏳️‍🌈🏳️‍⚧️♿\n ")</script>
+
+
+    <link rel="stylesheet" href="assets/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    
+    <script src="assets/js/uikit.min.js"></script>
+    <script src="assets/js/uikit-icons.min.js"></script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBT06C1Q2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-2MBT06C1Q2');
+    </script>    
+</head>
+
+<body style="background-color: #eeeeee;" >
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+        <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav uk-visible@s">
+                <li><a class="uk-navbar-item" href="/">Inicio</a></li>
+                <li><a class="uk-navbar-item" href="/index.html#sobre">Sobre</a></li>
+                <li><a class="uk-navbar-item" href="/index.html#local">Local</a></li>
+                <!-- <li><a class="uk-navbar-item" href="/index.html#patrocinio">Patrocínio</a></li> -->
+                <li><a class="uk-navbar-item" href="/index.html#patrocinadoras">Patrocinadoras</a></li>
+                <li><a class="uk-navbar-item" href="/speakers.html">Agenda</a></li>
+            </ul>
+            <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+        </div>
+
+        <div class="uk-navbar-right uk-padding-small">
+            <a href="https://github.com/pythonNordeste" uk-icon="icon: github; ratio: 1.3"></a>
+            <a href="https://www.linkedin.com/company/pythonnordeste" uk-icon="icon: linkedin; ratio: 1.3"></a>
+            <a href="https://www.instagram.com/pythonnordeste" uk-icon="icon: instagram; ratio: 1.3"></a>
+        </div>
+    </nav>
+
+    <div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas" >
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav">
+                <li><a class="uk-navbar-item" href="/">Inicio</a></li>
+                <li><a class="uk-navbar-item" href="#sobre">Sobre</a></li>
+                <li><a class="uk-navbar-item" href="#local">Local</a></li>
+                <li><a class="uk-navbar-item" href="#patrocinio">Patrocínio</a></li>
+                <li><a class="uk-navbar-item" href="#patrocinadoras">Patrocinadoras</a></li>
+                <li><a class="uk-navbar-item" href="/speakers.html">Palestras</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Inicio -->
+    <div class="uk-container uk-container-small uk-margin-top uk-margin-bottom">
+        <div class="uk-grid-small uk-child-width-expand@s uk-text-center" uk-grid>
+            <div>
+                <div id="card1" class="uk-card uk-padding-small uk-card-blue card">
+                    <h3>DIA 1</h3>
+                    <p>09 de Agosto</p>
+                </div>
+            </div>
+            <div>
+                <div id="card2" class="uk-card uk-card-gray uk-padding-small card">
+                    <h3>DIA 2</h3>
+                    <p>10 de Agosto</p>
+                </div>
+            </div>
+            <div>
+                <div id="card3" class="uk-card uk-card-gray uk-padding-small card">
+                    <h3>DIA 3</h3>
+                    <p>11 de Agosto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-small uk-margin-bottom">
+        <!-- PRIMEIRO DIA -->
+        <div id="day1">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Universidade Federal do Rio Grande do Norte (UFRN)
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">09:00 - 09:30</span>
+                    <h3 class="custom-class"> Inicio do credenciamento </h3>
+                </div>
+            </div>
+
+            <div class="uk-grid-small uk-child-width-expand@s uk-grid-match" uk-grid>
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/pedro-florencio.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 11:30</span>
+                                <p class="uk-text-bold">Visualização e Processamento de Dados Geoespaciais: Uma Introdução Prática.</p>
+                                <p><strong>Palestrante(s) </strong>Pedro Florencio de Almeida Neto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/marcos-jacinto.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 11:30</span>
+                                <p class="uk-text-bold">Treinar um Modelo não é Tudo: O Ciclo de Vida de Modelos de Machine Learning.</p>
+                                <p><strong>Palestrante(s) </strong> Marcos Vinícius Gomes Jacinto</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium uk-margin-bottom" src="/assets/images/avatar/pablo-gustavo.jpg" alt="Avatar">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/ian-gabriel.jpg" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:30 - 16:30</span>
+                                <p class="uk-text-bold">Introdução a Programação Competitiva com Python</p>
+                                <p><strong>Palestrante(s) </strong> Pablo Gustavo, Ian Gabriel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium uk-margin-bottom" src="/assets/images/avatar/ana-carolina-dias.png" alt="Avatar">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/ellem-amorim.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:30 - 16:30</span>
+                                <p class="uk-text-bold">Introdução prática ao Machine Learning com o TensorFlow e Keras.</p>
+                                <p><strong>Palestrante(s) </strong> Ana Carolina Sousa Dias, Ellem Almeida Amorim</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEGUNDO DIA-->
+        <div id="day2" style="display: none;">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Escola de Governo Cardeal Dom Eugênio de Araújo Sales
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">08:30 - 09:30</span>
+                    <h3 class="custom-class"> Inicio do credenciamento/Café da manhã </h3>
+                </div>
+            </div>
+
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-blue">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Sala 1
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">09:15 - 10:20</span>
+                    <h3 class="custom-class"> Mesa de abertura </h3>
+                </div>
+            </div>
+
+            <div class="uk-grid-small uk-child-width-expand@s uk-grid-match" uk-grid>
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/juliana-barros-lima.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">10:20 - 11:10</span>
+                                <p class="uk-text-bold">Bor(dados) com Python e Data Art.</p>
+                                <p><strong>Palestrante(s) </strong> Juliana Maria de Barros Lima</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">10:20 - 11:10</span>
+                                <p class="uk-text-bold">Saindo do básico com Django-channels</p>
+                                <p><strong>Palestrante(s) </strong> Ana Dulce Padovan </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                            Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/clara-santos.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">11:10 - 12:00</span>
+                                <p class="uk-text-bold">O mínimo que você precisa saber de LGPD para WebDev.</p>
+                                <p><strong>Palestrante(s) </strong> Clara Santos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/mariana-cristina.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">11:10 - 12:00</span>
+                                <p class="uk-text-bold">Drones do Software ao Hardware - Utilizando os conhecimentos sobre Python para o desenvolvimento de um Drone de voo autônomo.</p>
+                                <p><strong>Palestrante(s) </strong> Mariana Cristina Rodrigues de Oliveira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto uk-margin-bottom">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/lucas-vilela.png" alt="Avatar">
+                                </div>
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/flavio-juvenal.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:00 - 14:50</span>
+                                <p class="uk-text-bold">Evitando lentidão ao lidar com prefetching em Django.</p>
+                                <p><strong>Palestrante(s) </strong> Lucas Vilela, Flávio Juvenal da Silva Junior</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/vinicius-mendes.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:00 - 14:50</span>
+                                <p class="uk-text-bold">Aprendizados com testes de performance usando Locust.io.</p>
+                                <p><strong>Palestrante(s) </strong> Vinicius Mendes</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Hall de entrada
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">14:50 - 15:30</span>
+                            <h3 class="custom-class"> Coffee-break </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">15:30 - 16:15</span>
+                            <h3 class="custom-class"> Palestras relâmpago </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m uk-width-1-1@s">
+                    <div>
+                        <div class="uk-card-green">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card-default uk-card" style="padding: 1.5rem 0.7rem;">
+                            <div class="uk-grid-small uk-child-width-expand@m" uk-grid>
+                                <div class="uk-text-center uk-text-small">
+                                    <div class="uk-width-auto uk-margin-bottom">
+                                        <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/ana-cecilia.png" alt="Avatar">
+                                    </div>
+                                </div>
+                                <div class="uk-text-center uk-text-small">
+                                    <span class="uk-badge uk-badge-large uk-badge-beige">16:15 - 17:15</span>
+                                    <p class="uk-text-bold"></p>
+                                    <strong style="font-size: 1rem;">Keynote</strong>
+                                    <p style="font-size: 1.2rem;" class="uk-text-bold">Ana Cecília Vieira</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">17:15 - 17:30</span>
+                            <h3 class="custom-class"> Encerramento primeiro dia </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TERCEIRO DIA -->
+        <div id="day3" style="display: none;">
+            <div class="uk-width-1-1@m uk-margin-bottom">
+                <div class="uk-card-green">
+                    <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Escola de Governo Cardeal Dom Eugênio de Araújo Sales
+                    </span>
+                </div>
+                <div class="uk-card uk-card-default uk-text-center">
+                    <span class="custom-class uk-badge uk-badge-large uk-badge-beige">08:30 - 09:30</span>
+                    <h3 class="custom-class"> Inicio do credenciamento/Café da manhã </h3>
+                </div>
+            </div>
+
+            <div class="uk-grid-small uk-child-width-expand@s uk-grid-match" uk-grid>
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/luis-vinicius.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 10:20</span>
+                                <p class="uk-text-bold">Balanceamento de dados com Python para mitigar vieses amostrais e algorítmicos.</p>
+                                <p><strong>Palestrante(s) </strong> Luis Vinicius</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/alexandre-kavalerski.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">09:30 - 10:20</span>
+                                <p class="uk-text-bold">Impulsionando o Sucesso de Novos Produtos: Prototipagem ágil com FastAPI e API da OpenAI</p>
+                                <p><strong>Palestrante(s) </strong> Alexandre Henrique Kavalerski Teixeira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/rafaela-torres.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">10:20 - 11:10</span>
+                                <p class="uk-text-bold">"Dados, Python e Diversidade no Recrutamento: A Saga na Busca por Unicórnios Coloridos no Mundo Tech"</p>
+                                <p><strong>Palestrante(s) </strong> Rafaela lima torres maciel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/deborah-foroni.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">10:20 - 11:30</span>
+                                <p class="uk-text-bold">Educação Popular de Programação para Meninas</p>
+                                <p><strong>Palestrante(s) </strong> Deborah Quenia Gouveia Foroni</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/carolina-soares.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">11:10 - 12:00</span>
+                                <p class="uk-text-bold">Importância dos dados abertos e suas tecnologias resultantes</p>
+                                <p><strong>Palestrante(s) </strong> Maria Carolina de Sousa Soares</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/ivyna-santino.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">11:10 - 12:00</span>
+                                <p class="uk-text-bold">Entre letras e bytes: Uma conversa sobre LLMs e seus desafios éticos.</p>
+                                <p><strong>Palestrante(s) </strong> Ivyna Rayany Santino Alves</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/ana-carla-cavalcante.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:00 - 14:50</span>
+                                <p class="uk-text-bold">A IA não salvou meu negócio!</p>
+                                <p><strong>Palestrante(s) </strong> Ana Carla Cavalcante</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-2@m uk-width-1-2@s">
+                    <div class="uk-card-default uk-card">
+                        <div class="uk-card-brown">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 2
+                            </span>
+                        </div>
+                        <div class="uk-grid-small uk-child-width-expand@m agenda-card-body">
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto">
+                                    <img class="uk-border-circle avatar-medium"  src="/assets/images/avatar/renan-santos.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small uk-grid-margin">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:00 - 14:50</span>
+                                <p class="uk-text-bold">Abaixo aos prints, ode aos logs!</p>
+                                <p><strong>Palestrante(s) </strong> Renan de Assis Santos Sebastião</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div class="uk-card-green">
+                        <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                        Sala 1
+                        </span>
+                    </div>
+                    <div class="uk-card-default uk-card" style="padding: 1.5rem 0.7rem;">
+                        <div class="uk-grid-small uk-child-width-expand@m" uk-grid>
+                            <div class="uk-text-center uk-text-small">
+                                <div class="uk-width-auto uk-margin-bottom">
+                                    <img class="uk-border-circle avatar-medium" src="/assets/images/avatar/gustavo-carvalho.png" alt="Avatar">
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-text-small">
+                                <span class="uk-badge uk-badge-large uk-badge-beige">14:50 - 15:50</span>
+                                <p class="uk-text-bold"></p>
+                                <strong style="font-size: 1rem;">Keynote</strong>
+                                <p style="font-size: 1.2rem;" class="uk-text-bold">Gustavo Carvalho</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">15:50 - 16:50</span>
+                            <h3 class="custom-class"> Encerramento </h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="uk-width-1-1@m">
+                    <div>
+                        <div class="uk-card-blue">
+                            <span class="uk-margin-small-left"><img height="20px" width="25px" src="/assets/images/location-icon.png" alt="Location Icon">
+                                Sala 1
+                            </span>
+                        </div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <span class="custom-class uk-badge uk-badge-large uk-badge-beige">16:50 - 17:30</span>
+                            <h3 class="custom-class"> Coffee-break </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Fim -->
+
+    <footer class="uk-footer uk-background-muted">
+        <div class="uk-container">
+            <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+                <div>
+                    <h3>Sobre</h3>
+                    <ul class="uk-list uk-list-bullet">
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li>
+                            <a href="https://maps.google.com/maps?ll=-5.830751,-35.216122&z=15&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=1602971506784567923"
+                               target="_blank">
+                                Local
+                            </a>
+                        </li>
+                        <!-- <li>Keynotes</li> -->
+                        <!-- <li><a href="#patrocinio">Patrocínio</a></li> -->
+                        <li><a href="https://github.com/pythonNordeste/codigo-de-conduta">Código de Conduta (CDC)</a></li>
+                        <!-- <li>Perguntas Frequentes</li> -->
+                        <!-- <li>Programação</li> -->
+                    </ul>
+                </div>
+                <div>
+                    <h3>Créditos</h3>
+                    <p>
+                        A Python Nordeste 2024 em Natal, RN, é uma produção do 
+                        <a href="https://blog.grupyrn.org/">GruPy RN</a>
+                    </p>
+                    <p>
+                        Identidade visual e design por 
+                        <a href="https://www.linkedin.com/in/lucas-lenin-456726162/">Lucas Lenin</a>
+                    </p>
+                </div>
+                <div>
+                    <h3>Contato</h3>
+                    <a href="mailto:nordeste@python.org.br">nordeste@python.org.br</a>
+                    <div class="uk-grid-row-small">
+                        <a href="https://github.com/pythonNordeste" class="uk-margin-small-right" uk-icon="icon: github; ratio: 1.3"></a>
+                        <a href="https://www.linkedin.com/company/pythonnordeste" class="uk-margin-small-right" uk-icon="icon: linkedin; ratio: 1.3"></a>
+                        <a href="https://www.instagram.com/pythonnordeste" class="uk-margin-small-right" uk-icon="icon: instagram; ratio: 1.3"></a>
+                        <a href="https://t.me/pythonnordeste">
+                            <img src="assets/images/ASSET-TELEGRAM-ICON.svg"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-text-center uk-padding-small">
+                <p>© 2024 Python Nordeste</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+    const cards = document.querySelectorAll('.card');
+
+    const days = document.querySelectorAll('[id^="day"]');
+
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            cards.forEach(c => {
+                c.classList.remove('uk-card-blue');
+                c.classList.add('uk-card-gray');
+                c.style.boxShadow = 'none';
+            });
+
+            card.classList.add('uk-card-blue');
+            card.classList.remove('uk-card-gray');
+            card.style.boxShadow = '0 0 10px 0 rgba(0, 0, 0, 0.1)';
+
+            days.forEach(day => day.style.display = 'none');
+
+            var dayId = 'day' + card.id.replace('card', '');
+            document.getElementById(dayId).style.display = 'flex';
+            document.getElementById(dayId).style.flexWrap = 'wrap';
+        });
+    });
+});
+</script>
+</html>
