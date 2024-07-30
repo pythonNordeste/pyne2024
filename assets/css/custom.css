@@ -314,9 +314,14 @@ span {
     justify-content: space-between;
 }
 
-/* .uk-text-small {
-    min-height: 220px;
-} */
+figcaption {
+    font-size: 0.75em;
+}
+
+.uk-icon {
+    color: black !important;
+    cursor: pointer;
+}
 
 .custom-class {
     margin-top: 10px;

@@ -31,12 +31,18 @@
     <script src="assets/js/uikit-icons.min.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBT06C1Q2"></script>
-    <script>
+    <!-- <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-2MBT06C1Q2');
-    </script>    
+    </script> -->
+    <script>
+        document.addEventListener("readystatechange", () => {
+            const modal = document.getElementById("modal-group-1");
+            UIkit.modal(modal).show();
+        })
+    </script>
 </head>
 
 <body>
@@ -291,5 +297,79 @@
             </div>
         </div>
     </footer>
+    
+    <div id="modal-group-1" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-modal-header">
+                <h2 class="uk-modal-title">Locais do Evento</h2>
+            </div>
+            <div class="uk-modal-body">
+                <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                    <div>
+                        <div class="uk-text-center">
+                            Dia 09/08
+                        </div>
+                        <div class="uk-text-center">
+                            Tutoriais
+                            <a href="https://www.even3.com.br/python-nordeste-2024/" target="_blank">
+                                (para inscritos)
+                            </a>
+                            <span class="uk-margin-small-right" 
+                                  uk-icon="question"
+                                  uk-tooltip="Apenas participantes inscritos via Even3 podem participar dos tutoriais">
+                            </span>
+                        </div>
+                        <figure>
+                            <img src="assets/images/locais/imd.jpg" class="uk-responsive-width text-small"/>
+                            <figcaption>
+                                <a href="https://maps.app.goo.gl/BU6jCtU9rgztAajF8" target="_blank">
+                                    Instituto Metrópole Digital (UFRN)
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div>
+                        <div class="uk-text-center">Dias 10/08 e 11/08</div>
+                        <div class="uk-text-center">
+                            Palestras, Keynotes e Mais
+                        </div>
+                        <figure>
+                            <img src="assets/images/locais/escola-de-governo-rn.jpg" class="uk-responsive-width"/>
+                            <figcaption>
+                                <a href="https://maps.app.goo.gl/Rgoh8QVLnKT8EnXQA" target="_blank">
+                                    Escola de Governo do RN
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-modal-footer uk-flex uk-flex-between">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                <a href="#modal-group-2" class="uk-button uk-button-primary" uk-toggle>Próximo</a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="modal-group-2" uk-modal>
+        <div class="uk-modal-dialog">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-modal-header">
+                <h2 class="uk-modal-title">Codigo de Conduta</h2>
+            </div>
+            <div class="uk-modal-body">
+                <p>
+                    Para garantir um ambiente amistoso, de boa convivência, inclusivo e livre de intimidação a PyNE 
+                    segue um código de conduta. É de extrema importâncias que todos os participantes 
+                    <a href="/cdc.html">o tenham lido.</a>
+                </p>
+            </div>
+            <div class="uk-modal-footer uk-flex uk-flex-between">
+                <button class="uk-button uk-button-default uk-modal-close" type="button">Cancelar</button>
+                <a href="#modal-group-1" class="uk-button uk-button-primary" uk-toggle>Anterior</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
