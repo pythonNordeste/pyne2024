@@ -13,16 +13,9 @@ function getSocialButton(name, link) {
 
 function getVolunteerSocialButtons(obj) {
     let socials = [];
-
-    if (obj.social.instagram)
-        socials.push(getSocialButton('instagram', obj.social.instagram));
-
-    if (obj.social.linkedin)
-        socials.push(getSocialButton('linkedin', obj.social.linkedin));
-
-    if (obj.social.github)
-        socials.push(getSocialButton('github', obj.social.github));
-
+    for (let network in obj.social) {
+        socials.push(getSocialButton(network, obj.social[network]));
+    }
     return socials.join('');
 }
 
