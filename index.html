@@ -31,17 +31,19 @@
     <script src="assets/js/uikit-icons.min.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBT06C1Q2"></script>
+    <script src="assets/js/volunteers.js"></script>
     <script>
         document.addEventListener("readystatechange", () => {
-            const modal = document.getElementById("modal-group-1");
-            const need_to_show_modal = localStorage.getItem("modal-shown");
+            if (document.readyState === "complete") {
 
-            if (!need_to_show_modal) 
-                UIkit.modal(modal).show();
-
-            modal.addEventListener("show", () => {
-                localStorage.setItem("modal-shown", true);
-            });
+                const modal = document.getElementById("modal-group-1");
+                const modal_exibido = localStorage.getItem("modal-exibido");
+    
+                if (!modal_exibido) {
+                    UIkit.modal(modal).show();
+                    localStorage.setItem("modal-exibido", true);
+                }
+            }
         });
     </script>
 </head>
@@ -52,6 +54,7 @@
             <ul class="uk-navbar-nav uk-visible@s">
                 <li><a class="uk-navbar-item" href="/">Inicio</a></li>
                 <li><a class="uk-navbar-item" href="#sobre">Sobre</a></li>
+                <li><a class="uk-navbar-item" href="#voluntarios">Voluntários</a></li>
                 <li><a class="uk-navbar-item" href="#local">Local</a></li>
                 <!-- <li><a class="uk-navbar-item" href="#patrocinio">Patrocínio</a></li> -->
                 <li><a class="uk-navbar-item" href="#patrocinadoras">Patrocinadoras</a></li>
@@ -130,6 +133,19 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="scroll-smooth uk-margin-large-top" id="voluntarios">
+
+        <div>
+            <h2 class="uk-text-center">VOLUNTÁRIOS</h3>
+        </div>
+        
+        <div class="uk-margin-auto uk-flex-center" id="voluntarios-grid" uk-grid>
+        </div>
+
+        <img src="assets/images/DIV-COBRAS-PYTHON-NORDESTE-2024.svg" class="hr uk-margin uk-container" />
+
     </div>
 
     <div class="scroll-smooth uk-margin-bottom" id="patrocinadoras">
