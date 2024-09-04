@@ -31,17 +31,18 @@
     <script src="assets/js/uikit-icons.min.js"></script>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBT06C1Q2"></script>
-    <!-- <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-2MBT06C1Q2');
-    </script> -->
     <script>
         document.addEventListener("readystatechange", () => {
             const modal = document.getElementById("modal-group-1");
-            UIkit.modal(modal).show();
-        })
+            const need_to_show_modal = localStorage.getItem("modal-shown");
+
+            if (!need_to_show_modal) 
+                UIkit.modal(modal).show();
+
+            modal.addEventListener("show", () => {
+                localStorage.setItem("modal-shown", true);
+            });
+        });
     </script>
 </head>
 
