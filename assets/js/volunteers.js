@@ -8,7 +8,7 @@ async function getVolunteers() {
 }
 
 function getSocialButton(name, link) {
-    return `<a href="${link}" class="uk-margin-remove-vertical uk-margin-small-left" uk-icon="icon: ${name}; ratio: 1.3"></a>`
+    return `<a href="${link}" class="uk-margin-remove-vertical uk-margin-small-left" uk-icon="icon: ${name}; ratio: 1.3" target="_blank"></a>`
 }
 
 function getVolunteerSocialButtons(obj) {
