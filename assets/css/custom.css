@@ -340,3 +340,17 @@ figcaption {
     height: 100px;
     width: 100px;
 }
+
+.voluntario-item {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    padding: 30px !important;
+    margin: none;
+}
+
+.voluntario-foto {
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: cover;
+}
